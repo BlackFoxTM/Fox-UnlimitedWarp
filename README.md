@@ -3,11 +3,11 @@ Fox Unlimited Warp a Best Script That you can get Unlimited Warp+ 1.1.1.1 DNS on
 
 ## Feature : 
 
-> ~ Unlimited Get Warp + Per 1GB
+> ~> Unlimited Get Warp + Per 1GB
 
-> ~ Fast & Good Design 
+> ~> Fast & Good Design 
 
-> Free to Use !
+> ~> Free to Use !
 
 ## Installation :
 
