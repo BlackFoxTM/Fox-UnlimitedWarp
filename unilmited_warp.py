@@ -49,8 +49,8 @@ while True:
     try:
         warp_unlimited(code_id)
 
-        print ( Fore.GREEN + "Success ! You Got 1GB Warp + \n" + Fore.MAGENTA + "Please Wait 15 Second !")
+        print ( Fore.GREEN + "Success ! You Got 1GB Warp + \n" + Fore.MAGENTA + "Please Wait 17 Second !")
         
-        time.sleep(15)
+        time.sleep(17)
     except KeyboardInterrupt:
         print (Fore.Red + "Stopped ! ")
