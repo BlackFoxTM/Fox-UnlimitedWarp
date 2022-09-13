@@ -36,6 +36,7 @@ def warp_unlimited(id_code):
         resp = urllib.request.urlopen(req)
     except urllib.error.HTTPError:
         time.sleep(5)
+        continue
 
         
 banner = Figlet(font="whimsy").renderText("Warp Fox")
