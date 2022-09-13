@@ -31,9 +31,11 @@ def warp_unlimited(id_code):
     header = {'Content-Type': 'application/json; charset=UTF-8',
         'User-Agent': 'okhttp/3.12.1'
         }
-    req = urllib.request.Request(url , data , header)
-    resp = urllib.request.urlopen(req)
-
+    try:
+        req = urllib.request.Request(url , data , header)
+        resp = urllib.request.urlopen(req)
+    except urllib.error.HTTPError:
+        time.sleep(5)
 
         
 banner = Figlet(font="whimsy").renderText("Warp Fox")
